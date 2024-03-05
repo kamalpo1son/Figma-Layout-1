@@ -24,10 +24,8 @@ body {
 header.comp-header {
     display: flex;
     gap: 33px;
-    margin-top: 27px;
-    margin-right: 60px;
-    margin-bottom: 142px;
-    justify-content: end;
+    margin:27px 60px 142px 0px;
+    justify-content: flex-end;
 }
 
 header.comp-header a {
@@ -48,9 +46,7 @@ header.mobile-header div.menu {
     height: 20px;
     border-bottom: 2px solid #21243D;
     border-top: 2px solid #21243D;
-    margin-right: 18px;
-    margin-top: 20px;
-
+    margin:20px 18px 0px 0px;
 }
 
 header.mobile-header div.middle {
@@ -269,8 +265,7 @@ footer div.footer-content p {
     font-weight: 400;
     font-size: 14px;
     color: #21243D;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin:0px 5px;
 }
 
 br.br {
@@ -279,7 +274,7 @@ br.br {
 
 /*ADAPTIVE LAYOUT*/
 
-@media (max-width: 601px) {
+@media (max-width: 1152px) {
     * {
         margin: 0;
         padding: 0;
@@ -315,7 +310,7 @@ br.br {
     }
     
     main section.first-section div.section-content-1 {
-        width: 375px;
+        width: 100%;
         flex-direction: column;
         align-items: center;
     }
@@ -328,14 +323,7 @@ br.br {
     
     main section.first-section .info {
         margin-right: 0px;
-    }
-    
-    main section.first-section .info button {
-        margin-top: 27px;
         text-align: center;
-        margin-bottom: 59px;
-        margin-left: 60px;
-
     }
     
     main section.first-section img {
@@ -355,7 +343,7 @@ br.br {
     }
 
     main section.second-section div.section-content-2 {
-        width: 375px;
+        width: 100%;
         padding-bottom: 38px;
     }
 
@@ -376,9 +364,7 @@ br.br {
         gap: 17px;
         flex-direction: column;
         justify-content: center;
-        padding-right: 10px;
-        padding-left: 10px;
-        padding-bottom: 38px;
+        padding:0px 10px 38px 10px;
         margin-top: 0px;
     }
 
