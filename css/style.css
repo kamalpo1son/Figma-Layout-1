@@ -10,8 +10,6 @@
 }
 
 body {
-    width: 1152px;
-    height: 2041px;
     margin: 0px auto;
     font-family: Heebo;
     font-size: 16px;
@@ -274,7 +272,7 @@ br.br {
 
 /*ADAPTIVE LAYOUT*/
 
-@media (max-width: 1152px) {
+@media (max-width: 865px) {
     * {
         margin: 0;
         padding: 0;
