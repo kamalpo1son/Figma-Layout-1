@@ -273,16 +273,12 @@ br.br {
 /*ADAPTIVE LAYOUT*/
 
 @media (max-width: 865px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
 
-    body {
-        width: 375px;
-        height: 2165px;
+    @media (max-width: 280px){
+        body{
+            width: 375px;
+        }
     }
-
     /*HEADER ADAPTIVE*/
 
     header.comp-header {
@@ -394,6 +390,10 @@ br.br {
         width: 375px;
     }
 
+    main .works{
+        height: 530px;
+        overflow-y: scroll;
+    }
     main .work {
         display: flex;
         flex-direction: column;
@@ -406,10 +406,6 @@ br.br {
     main .work-info {
         border-bottom: 1px solid #E0E0E0;
         padding-bottom: 17px;
-    }
-
-    main .work-mobile {
-        display: none;
     }
 
     main section.third-section div.section-content-3 p.title {
