@@ -1,0 +1,463 @@
+@font-face {
+    font-family: Heebo;
+    src: url(/assets/fonts/Heebo-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1152px;
+    height: 2041px;
+    margin: 0px auto;
+    font-family: Heebo;
+    font-size: 16px;
+    color: #21243D;
+}
+
+
+/*HEADER AND MAIN SECTION 1*/
+
+header.comp-header {
+    display: flex;
+    gap: 33px;
+    margin-top: 27px;
+    margin-right: 60px;
+    margin-bottom: 142px;
+    justify-content: end;
+}
+
+header.comp-header a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+header.mobile-header {
+    display: none;
+}
+
+header.mobile-header div.menu {
+    display: flex;
+    width: 30px;
+    height: 20px;
+    border-bottom: 2px solid #21243D;
+    border-top: 2px solid #21243D;
+    margin-right: 18px;
+    margin-top: 20px;
+
+}
+
+header.mobile-header div.middle {
+    width: 30px;
+    background-color: #21243D;
+    height: 2px;
+    align-self: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-top: 16px;
+    width: 506px;
+}
+
+main {
+    margin: 0px;
+}
+
+main section.first-section div.section-content-1 {
+    display: flex;
+    width: 856px;
+    margin: auto;
+}
+
+main section.first-section .info p {
+    margin-top: 40px;
+    font-weight: 400;
+    line-height: 23.5px;
+    max-width: 497px;
+}
+
+main section.first-section .info {
+    margin-right: 100px;
+}
+
+main section.first-section .info button {
+    background-color: #FF6464;
+    font-size: 20px;
+    font-weight: 500;
+    width: 208px;
+    height: 47px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 38px;
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+main section.first-section img {
+    width: 243px;
+    height: 243px;
+}
+
+/*MAIN SECTION -2 */
+
+
+main section.second-section {
+    background-color: #EDF7FA;
+    height: 396px;
+}
+
+main section.second-section div.section-content-2 {
+    width: 856px;
+    margin: auto;
+    padding-bottom: 32px;
+}
+
+main .section-content-2 .posts-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+}
+
+main .posts-nav p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+main .posts-nav a {
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #00A8CC;
+
+}
+
+main .posts {
+    margin-top: 22px;
+    display: flex;
+    gap: 19px;
+}
+
+main .post {
+    background-color: #FFFFFF;
+    padding: 35px 22px 7px 22px;
+}
+
+main .posts h2 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #21243D;
+
+}
+
+main .posts p {
+    font-weight: 400;
+}
+
+main .posts p.date {
+    font-size: 18px;
+    margin-top: 17px;
+}
+
+main .posts p.text {
+    margin-top: 11px;
+    width: 368px;
+}
+
+
+/*MAIN SECTION -3 */
+
+main section.third-section {
+    height: 785px;
+}
+
+main section.third-section div.section-content-3 {
+    width: 856px;
+    margin: auto;
+}
+
+main section.third-section .works {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+main .work {
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 30px;
+}
+
+main section.third-section div.section-content-3 p.title {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 7px;
+}
+
+main .work img {
+    border-radius: 6px;
+    margin-right: 16px;
+}
+
+main .work .work-info h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #21243D;
+    margin-top: 4px;
+
+}
+
+main .work .work-info p span.date {
+    background-color: #142850;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    border-radius: 16px;
+    margin-right: 26px;
+    padding: 0px 10px;
+}
+
+main .work .work-info p span.text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695A4;
+}
+
+main .work .work-info p.text {
+    font-weight: 400;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 83px;
+    height: 182px;
+}
+
+footer div.footer-content {
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+}
+
+
+footer div.footer-content .icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+footer div.footer-content p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #21243D;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+br.br {
+    display: none;
+}
+
+/*ADAPTIVE LAYOUT*/
+
+@media (max-width: 601px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 375px;
+        height: 2165px;
+    }
+
+    /*HEADER ADAPTIVE*/
+
+    header.comp-header {
+        display: none;
+    }
+
+    header.mobile-header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 33px;
+    }
+
+
+    /*MAIN SECTION-1*/
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+        color: #21243D;
+        margin-top: 43px;
+        width: 312px;
+        text-align: center;
+    }
+    
+    main section.first-section div.section-content-1 {
+        width: 375px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main section.first-section .info p {
+        margin-top: 21px;
+        max-width: 328px;
+        text-align: center;
+    }
+    
+    main section.first-section .info {
+        margin-right: 0px;
+    }
+    
+    main section.first-section .info button {
+        margin-top: 27px;
+        text-align: center;
+        margin-bottom: 59px;
+        margin-left: 60px;
+
+    }
+    
+    main section.first-section img {
+        width: 170px;
+        height: 170px;
+        order: -1;
+    }
+    
+    br.br {
+        display: block;
+    }
+
+
+    /*SECTION-2*/
+    main section.second-section {
+        height: 647px;
+    }
+
+    main section.second-section div.section-content-2 {
+        width: 375px;
+        padding-bottom: 38px;
+    }
+
+    main .section-content-2 .posts-nav {
+        justify-content: center;
+        padding-top: 0px;
+    }
+
+    main .posts-nav p {
+        font-size: 18px;
+    }
+
+    main .posts-nav a {
+        display: none;
+    }
+
+    main .posts {
+        gap: 17px;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 38px;
+        margin-top: 0px;
+    }
+
+    main .post {
+        padding: 12px 8px 22px 19px;
+    }
+
+    main .posts h2 {
+        font-size: 22px;
+        color: #21243D;
+    }
+
+    main .posts p.date {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    main .posts p.text {
+        margin-top: 19px;
+        width: 314px;
+    }
+
+    /*SECTION-3*/
+    main section.third-section {
+        height: 520px;
+    }
+
+    main section.third-section div.section-content-3 {
+        width: 375px;
+    }
+
+    main .work {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        padding-bottom: 17px;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+
+    main .work-info {
+        border-bottom: 1px solid #E0E0E0;
+        padding-bottom: 17px;
+    }
+
+    main .work-mobile {
+        display: none;
+    }
+
+    main section.third-section div.section-content-3 p.title {
+        margin-top: 3px;
+        font-size: 18px;
+        color: #21243D;
+        margin-bottom: 2px;
+        margin-left: 125px;
+    }
+
+    main .work img {
+        width: 339px;
+        height: 230px;
+    }
+
+    main .work .work-info h2 {
+        font-size: 24px;
+        margin-top: 17px;
+    }
+
+    main .work .work-info p span.date {
+        font-size: 16px;
+        margin-right: 22px;
+    }
+
+    main .work .work-info p span.text {
+        font-size: 16px;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        margin-top: 150px;
+    }
+}
